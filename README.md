@@ -13,4 +13,4 @@ This project uses OpenCV and MediaPipe to track hand landmarks and send fingerti
 - Python 3.9.13 or any other 3.9.x (3.13 and 3.11 do not support mediapipe)
 - (Why?)
 
-## Can be used with DroidCam!!
+## Can be used with DroidCam!!!

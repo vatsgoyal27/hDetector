@@ -1,0 +1,7 @@
+Following libraries are required:
+
+1. opencv-python
+2. mediapipe
+3. numpy
+4. pycaw
+5. autopy

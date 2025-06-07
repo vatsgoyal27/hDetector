@@ -5,3 +5,4 @@ Following libraries are required:
 3. numpy
 4. pycaw
 5. autopy
+6. sys and os (inbuilt)

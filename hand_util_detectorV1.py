@@ -8,6 +8,7 @@ import hand_utils as det
 frameWidth = 640
 frameHeight = 480
 fr = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture("http://192.168.1.100:4747/video")
 fr.set(3, frameWidth)
 fr.set(4, frameHeight)
 fr.set(10, 150)

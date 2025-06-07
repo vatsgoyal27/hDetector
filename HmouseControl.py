@@ -12,6 +12,7 @@ screen_width, screen_height = autopy.screen.size()
 frame_width, frame_height = 1280, 720
 
 cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture("http://192.168.1.100:4747/video")
 cap.set(3, frame_width)
 cap.set(4, frame_height)
 

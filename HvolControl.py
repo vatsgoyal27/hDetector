@@ -17,6 +17,7 @@ maxVol = volRange[1]
 
 # Camera setup
 cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture("http://192.168.1.100:4747/video")
 w, h = 1280, 720
 cap.set(3, w)
 cap.set(4, h)

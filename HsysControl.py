@@ -13,7 +13,7 @@ def is_notepad_running():
 
 
 cap = cv2.VideoCapture(0)
-#cap = cv2.VideoCapture("http://192.168.1.14:4747/video")
+#cap = cv2.VideoCapture("http://192.168.1.100:4747/video")
 w = 1280
 h = 720
 cap.set(3, w)

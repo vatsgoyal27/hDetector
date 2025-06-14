@@ -119,12 +119,12 @@ def fpscalc(prev_time):
     fpspar = 1 / (curr_time - prev_time) if (curr_time - prev_time) > 0 else 0
     return curr_time, fpspar
 
-def draw_text(image, textpar):
+def draw_text(image, textpar, x, y):
     """
     Draws given value on the image.
     """
     if textpar is not None:
-        cv2.putText(image, f"{int(textpar)}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+        cv2.putText(image, textpar, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
     return image
 
 def draw_hands(image, all_landmarks, hand_labels = None, color=(0, 255, 0), radius=5, thickness=2):

@@ -54,8 +54,8 @@ while True:
     # Calculate and overlay FPS
     pTime, fps = det.fpscalc(pTime)
 
-    imgdet = det.draw_text(imgdet, fps)
-    imgline = det.draw_text(imgline, dist)
+    imgdet = det.draw_text(imgdet, f"{int(fps)}", 10, 30)
+    imgline = det.draw_text(imgline, f"{int(fps)}", 10, 30)
 
     # Track tagged landmark
     imgdet, xloc, yloc = det.loc(imgdet, landmarks, hindex, lindex, hand_ids, draw=True)

@@ -28,7 +28,7 @@ while True:
     if len(lmList) != 0:
         ln, fr, line = hDetector.findDistance(5, 17, fr, draw=True)  # base to middle tip
         distanceCM = A * ln ** 2 + B * ln + C
-        hutil.draw_text(fr, f"Dist: {round(distanceCM, 2)}", 1200, 30)
+        hutil.draw_text(fr, f"Dist: {round(distanceCM, 2)}", 1100, 30)
 
     # FPS calculation
     cTime = time.time()
